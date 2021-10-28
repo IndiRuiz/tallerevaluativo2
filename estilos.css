@@ -1,0 +1,45 @@
+.logo{
+    background-image: url("img/logo2ub40menu.png");
+    width: 90px;
+    height: 35px;
+}
+
+.banner{
+    height: 600px;
+    max-width: 100%;
+}
+
+.texto{
+    text-align: justify;
+}
+
+.fondo2{
+    background-image: url("img/fondofijo.jpg");
+    height: 160px;
+    background-attachment: fixed;
+}
+
+.cancion{
+    border: grey solid 2px; 
+   /* padding: 25px;*/
+    display: inline-block;
+
+}
+
+.ajuste{
+    max-width: 100%;
+
+}
+.enlace:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
